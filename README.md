@@ -14,5 +14,5 @@ npm install
 ```shell
 cd frontend/node_modules/.bin/
 ng build --watch --configuration development --base-href /patient-fe/
-mvn spring-boot:run
+mvn clean install spring-boot:run
 ```
