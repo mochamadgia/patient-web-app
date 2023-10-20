@@ -11,7 +11,7 @@ export class CommonService {
   BASE_URL: string;
 
   constructor(private http: HttpClient) {
-    this.BASE_URL = 'http://localhost:8080/api';
+    this.BASE_URL = 'http://localhost:5000/api';
   }
 
   post(url: string, body: any, reqOpts?: any, isNeedError?: boolean, maxRetry?: number, reqTimeout?: number): Observable<any> {
